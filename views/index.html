@@ -1,0 +1,27 @@
+<!--<!DOCTYPE html>-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LMS</title>
+</head>
+<body>
+<form onclick="return false">
+    <h2> Add A book</h2>
+    <input id="name" type="text" placeholder="name of book"required>
+    <input id="author" type="text" placeholder="author" required>
+    <input id="genre" type="text" placeholder="genre" required>
+    <input type="submit" onclick="addbook()">
+</form>
+
+<form onclick="return false">
+    <h2> Search A book</h2>
+    <input id="names" type="text" placeholder="name of book"required>
+    <input id="authors" type="text" placeholder="author">
+    <input type="submit" onclick="searchbook()">
+
+</form>
+<p id="displayname"></p>
+
+<script src="app.js"></script>
+</body>
+</html>
